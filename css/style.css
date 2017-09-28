@@ -1,0 +1,55 @@
+body {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  font-size: .12rem;
+  background-color: #f3f3fe; }
+
+header {
+  height: .5rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: .16rem; }
+
+section {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+  section .section-box .section-box1 {
+    width: 95%;
+    margin: auto;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+    background-color: #fff;
+    border-radius: .03rem;
+    overflow: hidden; }
+    section .section-box .section-box1 .section-box1-top {
+      height: .6rem;
+      background-color: #fd6060;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      section .section-box .section-box1 .section-box1-top span {
+        color: #fff;
+        font-size: .26rem; }
+        section .section-box .section-box1 .section-box1-top span a {
+          color: #fff;
+          font-size: .18rem; }
+    section .section-box .section-box1 .section-box1-bottom {
+      padding-top: .05rem;
+      padding-bottom: .05rem;
+      height: .4rem;
+      padding-left: .2rem;
+      line-height: .2rem; }
+      section .section-box .section-box1 .section-box1-bottom p {
+        color: #b0b0b0; }
+        section .section-box .section-box1 .section-box1-bottom p i {
+          padding-right: .1rem; }
+      section .section-box .section-box1 .section-box1-bottom p:first-child {
+        color: #00a864; }
+
+/*# sourceMappingURL=style.css.map */
